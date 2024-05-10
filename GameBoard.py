@@ -114,9 +114,12 @@ class OthelloGUI:
         self.draw_board()
     
     def switch_turn(self):
+        self.check_winner()
         if self.turn == 'B':
             self.turn = 'W'
             self.turn_label.config(text="Turn: White")
+            if not self.check_exist_valid_move():
+                self.switch_turn()
 
             # Call function here to get position of computer move
             
@@ -130,6 +133,8 @@ class OthelloGUI:
         else:
             self.turn = 'B'
             self.turn_label.config(text="Turn: Black")
+            if not self.check_exist_valid_move():
+                self.switch_turn()
         
         # Count the number of black and white pieces after each turn
         black_count = sum(row.count('B') for row in self.board)
@@ -139,6 +144,19 @@ class OthelloGUI:
         self.black_counter_label.config(text="Black Player:: " + str(black_count))
         self.white_counter_label.config(text="White Player: " + str(white_count))
         
+        
+
+    def check_exist_valid_move(self):
+        for row in range(8):
+            for col in range(8):
+                if self.valid_move(row,col):
+                    return True
+        return False        
+
+    def check_winner(self):
+        black_count = sum(row.count('B') for row in self.board)
+        white_count = sum(row.count('W') for row in self.board)
+
         if black_count + white_count == 64:
             if black_count > white_count:
                 winner = "Black"
@@ -150,7 +168,6 @@ class OthelloGUI:
             # Display the winner
             messagebox.showinfo("Game Over", f"The winner is {winner}!")
             self.master.destroy()  # Close the window after displaying the message
-
 
 def main():
     root = tk.Tk()
