@@ -25,10 +25,8 @@ The game includes a graphical user interface for an engaging playing experience.
 | <img height="50" src="https://user-images.githubusercontent.com/25181517/192108372-f71d70ac-7ae6-4c0d-8395-51d8870c2ef0.png">       | Git    |
 | <img height="50" src="https://user-images.githubusercontent.com/25181517/192108374-8da61ba1-99ec-41d7-80b8-fb2f7c0a4948.png">        | GitHub |
 | <img height="50" src="https://user-images.githubusercontent.com/25181517/192108891-d86b6220-e232-423a-bf5f-90903e6887c3.png">        | Visual Studio Code   |
-| <img height="50" src="https://cdn-icons-png.flaticon.com/512/136/136525.png">	        | Python  |
-| <img height="50" src="https://static-00.iconduck.com/assets.00/cmake-icon-2048x2046-qsjo7g7r.png">        | CMake    |
-| <img height="50" src="https://user-images.githubusercontent.com/25181517/186884153-99edc188-e4aa-4c84-91b0-e2df260ebc33.png"> | Pygame    |
-| <img height="50" src="https://user-images.githubusercontent.com/25181517/251815177/192106073-90fffafe-3562-4ff9-a37e-c77a2da0ff58.png">        | NumPy  |
+| <img height="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/640px-Python-logo-notext.svg.png">	        | Python  |
+| <img height="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Pygame_logo.svg/2560px-Pygame_logo.svg.png"> | Pygame    |
 
 ## Run Locally
 
