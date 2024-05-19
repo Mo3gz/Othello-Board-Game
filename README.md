@@ -1,4 +1,3 @@
-
 # Othello Game
 
 ## Description
@@ -55,12 +54,9 @@ Run the game
   python Menu.py
 ```
 
-
-
 ## Authors
 
 - [Ayman Ashraf](https://github.com/Mo3gz)
-- [Youssef Ismail](https://github.com/Mo3gz)
+- [Youssef Ismail](https://github.com/Youssifismail)
 - [Muhammed Mahmoud](https://github.com/mohamedmahmoudelgendy)
 - [Adham Mahmoud](https://github.com/AdhamMahmoud1)
-
