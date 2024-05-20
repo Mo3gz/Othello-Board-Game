@@ -7,13 +7,13 @@ Users can choose to play against another player or the computer with varying lev
 The game includes a graphical user interface for an engaging playing experience.
 
 ## Features
-   ##User Management:
+User Management:
 
-      1. Add new students with details such as ID, name, date of birth, GPA, gender, level, status, department, email, and mobile number.
-      
-      2. Update existing student information (with the department field disabled for editing).
-      
-      3. Delete student data with confirmation prompts to ensure data integrity.
+1. Add new students with details such as ID, name, date of birth, GPA, gender, level, status, department, email, and mobile number.
+
+2. Update existing student information (with the department field disabled for editing).
+
+3. Delete student data with confirmation prompts to ensure data integrity.
 
 Search and Assignment:
 
@@ -37,17 +37,6 @@ Navigation and Design:
 
 4. CSS for styling to create a user-friendly interface.
 
-## Main functionality
-1. Play against a computer or another player.
-   
-2. Choose difficulty levels when playing against the computer.
-   
-3. Interactive game board with visual feedback for valid moves.
-   
-4. Score tracking and display during gameplay.
-   
-5. Resize the window while maintaining board proportions.
-
 ## Tools and languages used in Project
 
 | Icon                                                                                                                                 | Tech   |
@@ -63,13 +52,7 @@ Navigation and Design:
 Clone the project
 
 ```bash
-  git clone https://github.com/YourUsername/Othello-Game
-```
-
-Navigate to the project directory
-
-```bash
-  cd Othello-Game
+  git clone https://github.com/Mo3gz/Othello-Board-Game/
 ```
 
 Set up the environment
