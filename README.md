@@ -6,6 +6,37 @@ The "Othello Game" is a desktop application that allows users to play the classi
 Users can choose to play against another player or the computer with varying levels of difficulty. 
 The game includes a graphical user interface for an engaging playing experience.
 
+## Features
+   ##User Management:
+
+      1. Add new students with details such as ID, name, date of birth, GPA, gender, level, status, department, email, and mobile number.
+      
+      2. Update existing student information (with the department field disabled for editing).
+      
+      3. Delete student data with confirmation prompts to ensure data integrity.
+
+Search and Assignment:
+
+1. Search for active students by name, displaying results in a table format.
+
+2. Assign departments to students at level 3, with error handling for invalid actions.
+
+Status Management:
+
+1. View all active and inactive students in a table.
+
+2. Change student status between active and inactive directly from the table.
+
+Navigation and Design:
+
+1. A common homepage listing all potential projects (Human Resources, Student Affairs, Higher Studies, Laboratory Tracking).
+
+2. Well-designed navigation bar for seamless access to all functionalities.
+
+3. Frontend validations and dynamic content handling using JavaScript.
+
+4. CSS for styling to create a user-friendly interface.
+
 ## Main functionality
 1. Play against a computer or another player.
    
